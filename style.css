@@ -1,0 +1,18 @@
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+table {
+    text-align: center;
+    color: red;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    border: red;
+}
+h1 {
+    text-align: center;
+    
+}
