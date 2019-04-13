@@ -1,48 +1,50 @@
 html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-  }
-  
-  *, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-  h1 {
-    font-size: 80px;
-    text-align: center;
-  }
-  img {
-    position: center;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  }
-  .allPads {
-    text-align: center;
-    color: red;
-    position: absolute;
-    left:105px;
-    top:270px;
-  }
- /* .catagory {
-    position: center;
-    left: 0px;
-    top: 0px;
- }  */
- button {
-    height: 90px;
-    width: 90px;
-    border-radius: 3px;
-    background-color: transparent;
-    font-size: 2rem;
-    border: 1px solid grey;
-    color:red;    
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
-  button:hover {
-    background-color: grey;
-    color: red
-  }
-  .allPads {
-      display: grid;
-  }
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+img {
+  position: center;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.allPads {
+  text-align: center;
+  color: red;
+  position: absolute;
+  left:133px;
+  top:310px;
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  border-radius: 6px;
+  background-color: transparent;
+  font-size: 2rem;
+  border: 1px solid grey;
+  color:red;    
+}
+button:hover {
+  background-color: grey;
+  color: red;
+  box-shadow: 0 0 10px #ffc600;
+}
+.catagory {
+  font-size: 15px
+}
+.allPads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
