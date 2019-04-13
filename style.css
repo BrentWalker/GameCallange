@@ -1,28 +1,48 @@
-img {
-    position: absolute;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  h1 {
+    font-size: 80px;
+    text-align: center;
+  }
+  img {
+    position: center;
     left: 0px;
     top: 0px;
     z-index: -1;
-}
-table {
+  }
+  .allPads {
     text-align: center;
     color: red;
     position: absolute;
-    left:100px;
-    top: 210px;
-
+    left:105px;
+    top:270px;
+  }
+ /* .catagory {
+    position: center;
+    left: 0px;
+    top: 0px;
+ }  */
+ button {
+    height: 90px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: transparent;
+    font-size: 2rem;
+    border: 1px solid grey;
+    color:red;    
 }
-h1 {
-    text-align: center;
-    font-style: italic;
-    font-size: 40px;
-
-}
-button {
-    background-color:rgba(0,0,0,0);
-    font-size: 15px;
-    color: red;
-    border:none;
-    text-align: center;
-    width: 30px;
-}    
+  button:hover {
+    background-color: grey;
+    color: red
+  }
+  .allPads {
+      display: grid;
+  }

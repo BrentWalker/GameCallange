@@ -1,0 +1,1040 @@
+$('#pad01').on('click', function () {
+    swal({
+        title: 'who is the best?',
+        text: "You won't be able to revert this!",
+        type: 'radio',
+       showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#DD6B55',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'correct!',
+            'you earned $400.',
+            'success'
+        );
+    
+    })
+});
+$('#pad02').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad03').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad04').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad05').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad06').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad07').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad08').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad09').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad10').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad11').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad12').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad13').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad14').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad15').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad16').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+
+
+--------------------------------------------------------
+$('#pad01').on('click', function () {
+    swal({
+        title: 'who is the best?',
+        text: "You won't be able to revert this!",
+        type: 'radio',
+       showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#DD6B55',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'correct!',
+            'you earned $400.',
+            'success'
+        );
+    
+    })
+});
+$('#pad02').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad03').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad04').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad05').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad06').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad07').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad08').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad09').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad10').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad11').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad12').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad13').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad14').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad15').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+$('#pad16').on('click', function () {
+    swal({
+        title: 'Are you sure?',
+        text: "You won't be able to revert this!",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes, delete it!',
+        cancelButtonText: 'No, cancel!',
+        confirmButtonClass: 'btn btn-primary',
+        cancelButtonClass: 'btn btn-secondary',
+        buttonsStyling: false
+    }).then(function () {
+        swal(
+            'Deleted!',
+            'Your file has been deleted.',
+            'success'
+        );
+    }, function (dismiss) {
+        // dismiss can be 'cancel', 'overlay',
+        // 'close', and 'timer'
+        if (dismiss === 'cancel') {
+            swal(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+            );
+        }
+    })
+});
+
+
+
+// ----------------------html------------------------
+
+    <div class="mpc">
+        <img src="assets/MPCLive_ortho_web_1200x750.png_bb292940da8146e0ef921dcd960b877e.png" />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+ <table class="moneyboard" cellspacing="" width="400" height="400">
+ <tr>
+    <td class="pad" id="pad13"><button>$100</button></td>
+    <td class="pad" id="pad14"><button>$100</button></td>
+    <td class="pad" id="pad15"><button>$100</button></td>
+    <td class="pad" id="pad16"><button>$100</button></td>
+</tr>
+<tr>
+    <td class="pad" id="pad09"><button>$200</button></td>
+    <td class="pad" id="pad10"><button>$200</button></td>
+    <td class="pad" id="pad11"><button>$200</button></td>
+    <td class="pad" id="pad12"><button>$200</button></td>
+</tr>
+<tr>
+    <td class="pad" id="pad05"><button>$300</button></td>
+    <td class="pad" id="pad06"><button>$300</button></td>
+    <td class="pad" id="pad07"><button>$300</button></td>
+    <td class="pad" id="pad08"><button>$300</button></td>
+</tr>
+<tr>
+    <td class="pad" id="pad01"><button>$400</button></td>
+    <td class="pad" id="pad02"><button>$400</button></td>
+    <td class="pad" id="pad03"><button>$400</button></td>
+    <td class="pad" id="pad04"><button>$400</button></td>
+</tr>
+</table> 
+
+
+// ---------------------css------------------------
+img {
+    position: center;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+table {
+    text-align: center;
+    color: red;
+    position: absolute;
+    left:100px;
+    top: 210px;
+}
+button {
+    background-color:rgba(0,0,0,0);
+    font-size: 15px;
+    color: red;
+    border:none;
+    text-align: center;
+    width: 30px;
+}    
