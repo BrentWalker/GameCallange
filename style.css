@@ -14,8 +14,6 @@ h1 {
 }
 img {
   position: center;
-  left: 0px;
-  top: 0px;
   z-index: -1;
 }
 .allPads {
@@ -23,7 +21,7 @@ img {
   color: red;
   position: absolute;
   left:133px;
-  top:310px;
+  top:270px;
 }
 
 button {
@@ -42,7 +40,9 @@ button:hover {
   box-shadow: 0 0 10px #ffc600;
 }
 .catagory {
-  font-size: 15px
+  font-size: 15px;
+  height: 45px;
+ 
 }
 .allPads {
   display: grid;
