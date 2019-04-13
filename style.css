@@ -17,11 +17,17 @@ img {
   z-index: -1;
 }
 .allPads {
-  text-align: center;
-  color: red;
-  position: absolute;
-  left:133px;
-  top:270px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    left:133px;
+    top:270px;
+}
+.catagory {
+ color: rgba(red, green, blue, alpha)
+    font-size: 15px;
+ height: 45px;
+                             
 }
 
 button {
@@ -38,11 +44,6 @@ button:hover {
   background-color: grey;
   color: red;
   box-shadow: 0 0 10px #ffc600;
-}
-.catagory {
-  font-size: 15px;
-  height: 45px;
- 
 }
 .allPads {
   display: grid;
