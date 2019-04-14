@@ -10,3 +10,10 @@ win condition is earn 3500
 lose condition is earn -2000
 upon winning allPads change to drumPads
 */ 
+
+// (function (ans) { console.log(2 + (5 /2), ans) })(42)
+// function doStuff(ans) { console.log(2 + (5 /2), ans)}
+// doStuff(78)
+// console.log(54)
+
+// toggle pads
