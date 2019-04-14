@@ -19,7 +19,7 @@ img {
 #qScreen {
   width: 456px;
   height: 200px;
-  background-color: rgb(73, 73, 178);
+  background-color: rgb(99, 99, 193);
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -31,7 +31,7 @@ img {
 #sScreen {
   width: 456px;
   height: 88px;
-  background-color: rgb(73, 73, 178);
+  background-color: rgb(99, 99, 193);
   align-items: center;
   justify-content: center;
   position: absolute;
