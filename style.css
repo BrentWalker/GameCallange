@@ -96,4 +96,9 @@ img {
 .hidden {
     display: none;
 }
-    
+#qText {
+  font-size: 35px;
+}    
+.answer {
+  font-size: 25px;
+}

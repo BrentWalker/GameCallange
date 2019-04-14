@@ -25,6 +25,17 @@ upon winning allPads change to drumPads
 
     let sScreen = document.getElementById("sScreen")
 
+    let qBox = document.getElementById("qBox")
+
+
+
+    let qText = document.getElementById("qText")
+
+    let ans1 = document.getElementById("ans1")
+    let ans2 = document.getElementById("ans2")
+    let ans3 = document.getElementById("ans3")
+    
+
     let pad16 = document.getElementById("pad16")
     let pad15 = document.getElementById("pad15")
     let pad14 = document.getElementById("pad14")
@@ -209,17 +220,95 @@ upon winning allPads change to drumPads
 
     // -------------------------functions------------------
 
-    // add questions and answers
+    // add questions 
+    function showQuestion(question) {
+        // qBox.innerHTML = question.body;
+        // qBox.setAttribute("style", "color: white; font-size: 30px ");
+        qText.innerHTML = question.body;
+        // add answers
+
+        ans1.innerHTML = question.choices[0]
+        ans2.innerHTML = question.choices[1]
+        ans3.innerHTML = question.choices[2]
+
+        
+        // check if answer is correct
+        // sum score
+        // win/lose/drum
+    }
+    function chooseAnswer(question, answer) {
+
+    }
+
+
+    
+    
+    // ----------------------------Dom Manipulation---------------------
+    // pad click to show question need to rewrite dryer later
+    
     // choose answer
-    // check if answer is correct
-    // sum score
-    // win/lose/drum
+    ans1.addEventListener("click", function () {
+        console.log ('yes')
+        // chooseAnswer(questions[0].choices[0], questions[0].answer)
+       
+    })
+    ans2.addEventListener("click", function () {
+        console.log ('naw')
+        // chooseAnswer(questions[1].choices[0], questions[0].answer)
+    })
+    ans3.addEventListener("click", function () {
+        console.log('hell naw')
+        // chooseAnswer(questions[2].choices[0], questions[0].answer)
+    })
 
-
-
-
-
-
+    pad16.addEventListener("click", function () {
+        showQuestion(questions[0])
+    });
+    pad15.addEventListener("click", function () {
+        showQuestion(questions[4])
+    });
+    pad14.addEventListener("click", function () {
+        showQuestion(questions[8])
+    });
+    pad13.addEventListener("click", function () {
+        showQuestion(questions[12])
+    });
+    pad12.addEventListener("click", function () {
+        showQuestion(questions[1])
+    });
+    pad11.addEventListener("click", function () {
+        showQuestion(questions[5])
+    });
+    pad10.addEventListener("click", function () {
+        showQuestion(questions[9])
+    });
+    pad09.addEventListener("click", function () {
+        showQuestion(questions[13])
+    });
+    pad08.addEventListener("click", function () {
+        showQuestion(questions[2])
+    });
+    pad07.addEventListener("click", function () {
+        showQuestion(questions[6])
+    });
+    pad06.addEventListener("click", function () {
+        showQuestion(questions[10])
+    });
+    pad05.addEventListener("click", function () {
+        showQuestion(questions[14])
+    });
+    pad04.addEventListener("click", function () {
+        showQuestion(questions[3])
+    });
+    pad03.addEventListener("click", function () {
+        showQuestion(questions[7])
+    });
+    pad02.addEventListener("click", function () {
+        showQuestion(questions[11])
+    });
+    pad01.addEventListener("click", function () {
+        showQuestion(questions[15])
+    });
 
 
 
