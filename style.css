@@ -51,7 +51,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .catagory {
- color: rgba(red, green, blue, alpha)
+ color: rgba(red, green, blue, alpha);
     font-size: 15px;
  height: 45px;
                              
@@ -65,13 +65,13 @@ img {
   background-color: rgb(129, 119, 119);
   font-size: 2rem;
   border: 1px solid rgb(59, 50, 50);
-  color:red;  
+  color:rgb(112, 15, 15);  
   text-align: center;
     
 }
 .qPads:hover {
   background-color: rgb(135, 84, 84);
-  color: red;
+  color: rgb(255, 0, 0);
   box-shadow: 0 0 10px #ffc600;
 }
 .drumPads {
