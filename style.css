@@ -16,6 +16,31 @@ img {
   position: center;
   z-index: -1;
 }
+#qScreen {
+  width: 456px;
+  height: 200px;
+  background-color: rgb(73, 73, 178);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left:545px;
+  top:305px;
+  color: red;
+  box-shadow: 0 0 10px #315d6b;
+}
+#sScreen {
+  width: 456px;
+  height: 88px;
+  background-color: rgb(73, 73, 178);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left:545px;
+  top:508px;
+  color: red;
+  box-shadow: 0 0 10px #315d6b;
+}
+
 .allPads {
     text-align: center;
     color: red;
@@ -32,18 +57,20 @@ img {
                              
 }
 
-button {
+.qPads {
   height: 80px;
   width: 80px;
   margin: 5px;
   border-radius: 6px;
-  background-color: transparent;
+  background-color: rgb(129, 119, 119);
   font-size: 2rem;
-  border: 1px solid grey;
-  color:red;    
+  border: 1px solid rgb(59, 50, 50);
+  color:red;  
+  text-align: center;
+    
 }
-button:hover {
-  background-color: grey;
+.qPads:hover {
+  background-color: rgb(135, 84, 84);
   color: red;
   box-shadow: 0 0 10px #ffc600;
 }

@@ -17,3 +17,56 @@ upon winning allPads change to drumPads
 // console.log(54)
 
 // toggle pads
+(function (){
+// -----------------------variables-------------------
+let score = 0
+
+let screen = document.getElementById("screen")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+})()
