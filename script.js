@@ -62,8 +62,8 @@ upon winning allPads change to drumPads
             ],
             answer: "DJ premier",
             value: "200"
-        }
-    {
+        },
+        {
             body: "This 'Squad'is responsible for Fight The Power.",
             choices: [
                 "Who is The Bomb Squad",
@@ -82,7 +82,8 @@ upon winning allPads change to drumPads
             ],
             answer: "Primo",
             value: "400"
-        } {
+        },
+        {
             body: "This Dj is known for inventing the Transform Scratch.",
             choices: [
                 "Who is DJ Doc",
@@ -101,7 +102,8 @@ upon winning allPads change to drumPads
             ],
             answer: "Atrak",
             value: "200"
-        } {
+        },
+        {
             body: "This DJ made the most money in 2018.",
             choices: [
                 "Who is Adrian Younge",
@@ -120,7 +122,8 @@ upon winning allPads change to drumPads
             ],
             answer: "DJ AM",
             value: "400"
-        } {
+        },
+        {
             body: "Brents favorite Break Beat is.",
             choices: [
                 "What is Impeach The President",
@@ -139,7 +142,8 @@ upon winning allPads change to drumPads
             ],
             answer: "What is Amen Break",
             value: "200"
-        } {
+        },
+        {
             body: "the song Paid In Full is built around this Break.",
             choices: [
                 "What is A New Day break ",
@@ -158,7 +162,8 @@ upon winning allPads change to drumPads
             ],
             answer: "What is Funky",
             value: "400"
-        } {
+        },
+        {
             body: "The song Fight The Power was made by.",
             choices: [
                 "Who Run DMC",
@@ -177,7 +182,8 @@ upon winning allPads change to drumPads
             ],
             answer: "Who is The Get fresh Crew",
             value: "200"
-        } {
+        },
+        {
             body: "The song Just A Friend was made by.",
             choices: [
                 "Who The Outlaws",
