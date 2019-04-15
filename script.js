@@ -29,12 +29,8 @@ upon winning allPads change to drumPads
 
 
 
-    let qText = document.getElementById("qText")
 
-    let ans1 = document.getElementById("ans1")
-    let ans2 = document.getElementById("ans2")
-    let ans3 = document.getElementById("ans3")
-    
+
 
     let pad16 = document.getElementById("pad16")
     let pad15 = document.getElementById("pad15")
@@ -215,51 +211,68 @@ upon winning allPads change to drumPads
             value: "400"
         }
     ];
+    let qText = document.getElementById("qText")
 
-
+    function checkAnswer(choice, answer) {
+        console.log(choice === answer)
+        qText.innerHTML = choice === answer
+    }
 
     // -------------------------functions------------------
 
     // add questions 
     function showQuestion(question) {
+        let ansBox = document.getElementById("ansBox")
+        let ans1 = document.getElementById("ans1")
+        let ans2 = document.getElementById("ans2")
+        let ans3 = document.getElementById("ans3")
         // qBox.innerHTML = question.body;
         // qBox.setAttribute("style", "color: white; font-size: 30px ");
         qText.innerHTML = question.body;
         // add answers
-
-        ans1.innerHTML = question.choices[0]
-        ans2.innerHTML = question.choices[1]
-        ans3.innerHTML = question.choices[2]
-
-        
         // check if answer is correct
         // sum score
         // win/lose/drum
-    }
-    function chooseAnswer(question, answer) {
+
+        let button1 = document.createElement("div")
+        let button2 = document.createElement("div")
+        let button3 = document.createElement("div")
+        button1.setAttribute("id", "ans1")
+        button2.setAttribute("id", "ans2")
+        button3.setAttribute("id", "ans3")
+        button1.setAttribute("class", "answer")
+        button2.setAttribute("class", "answer")
+        button3.setAttribute("class", "answer")
+        button1.innerHTML = question.choices[0]
+        button2.innerHTML = question.choices[1]
+        button3.innerHTML = question.choices[2]
+        button1.addEventListener("click", function () {
+            checkAnswer(question.choices[0], question.answer)
+            // (question.choices[0], question.value, question.answer)
+        })
+        button2.addEventListener("click", function () {
+            checkAnswer(question.choices[1], question.answer)
+        })
+        button3.addEventListener("click", function () {
+            checkAnswer(question.choices[2], question.answer)
+            // chooseAnswer(questions[2].choices[0], questions[0].answer)
+        })
+        ansBox.replaceChild(button1, ans1)
+        ansBox.replaceChild(button2, ans2)
+        ansBox.replaceChild(button3, ans3)
+
 
     }
 
 
-    
-    
+
+
+
     // ----------------------------Dom Manipulation---------------------
     // pad click to show question need to rewrite dryer later
-    
+
     // choose answer
-    ans1.addEventListener("click", function () {
-        console.log ('yes')
-        // chooseAnswer(questions[0].choices[0], questions[0].answer)
-       
-    })
-    ans2.addEventListener("click", function () {
-        console.log ('naw')
-        // chooseAnswer(questions[1].choices[0], questions[0].answer)
-    })
-    ans3.addEventListener("click", function () {
-        console.log('hell naw')
-        // chooseAnswer(questions[2].choices[0], questions[0].answer)
-    })
+
 
     pad16.addEventListener("click", function () {
         showQuestion(questions[0])
