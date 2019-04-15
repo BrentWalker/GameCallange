@@ -13,7 +13,7 @@ upon winning allPads change to drumPads
 
 (function () {
     // -----------------------variables-------------------
-    const WIN = 100
+    const WIN = 3000
     const LOSE = -1200
     const YOU_WIN = "You win go make some beats!";
     const YOU_LOSE = "Sell this thing, you're not ready.";
