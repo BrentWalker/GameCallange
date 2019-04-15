@@ -118,3 +118,10 @@ img {
 }
 
 /* drum machine  */
+.around {
+  text-align: center;
+  color: red;
+  position: absolute;
+  left:px;
+  top:55px;
+}
