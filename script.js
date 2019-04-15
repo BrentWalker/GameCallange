@@ -13,8 +13,8 @@ upon winning allPads change to drumPads
 
 (function () {
     // -----------------------variables-------------------
-    const WIN = 100
-    const LOSE = -1200
+    const WIN = 1000
+    const LOSE = -1000
     const YOU_WIN = "You win go make some beats!";
     const YOU_LOSE = "Sell this thing, you're not ready.";
     let score = 0
@@ -54,11 +54,11 @@ upon winning allPads change to drumPads
         {
             body: "This producer made DWYCK.",
             choices: [
-                "DJ Premier",
-                "Timbaland",
-                "J.Dilla"
+                "Who is DJ Premier",
+                "Who is Timbaland",
+                "Who is J.Dilla"
             ],
-            answer: "DJ Premier",
+            answer: "Who is DJ Premier",
             value: "200"
         },
         {
@@ -72,13 +72,13 @@ upon winning allPads change to drumPads
             value: "300"
         },
         {
-            body: "This producer made DWYK.",
+            body: "This producer made Nuthin But a G Thang.",
             choices: [
-                "Primo",
-                "Megatron Don",
-                "Dre"
+                "Who is Primo",
+                "Who is The Megatron Don",
+                "Who is Dr. Dre"
             ],
-            answer: "Primo",
+            answer: "Who is Dr. Dre",
             value: "400"
         },
         {
@@ -94,15 +94,15 @@ upon winning allPads change to drumPads
         {
             body: "This DJ is from Canada.",
             choices: [
-                "Atrak",
-                "DJ Cashmoney",
-                "DJ Scratch"
+                "Who is Atrak",
+                "Who is DJ Cashmoney",
+                "Who is DJ Scratch"
             ],
-            answer: "Atrak",
+            answer: "Who is Atrak",
             value: "200"
         },
         {
-            body: "This DJ made the most money in 2018.",
+            body: "This DJ earned the most in 2018.",
             choices: [
                 "Who is Adrian Younge",
                 "Who is Joan Black",
@@ -114,11 +114,11 @@ upon winning allPads change to drumPads
         {
             body: "This DJ survived a plane crash but later died from a drug overdose",
             choices: [
-                "DJ Fire",
-                "DJ BigTop",
-                "DJ AM"
+                "Who is DJ Fire",
+                "Who is DJ BigTop",
+                "Who is DJ AM"
             ],
-            answer: "DJ AM",
+            answer: "Who is DJ AM",
             value: "400"
         },
         {
@@ -142,7 +142,7 @@ upon winning allPads change to drumPads
             value: "200"
         },
         {
-            body: "the song Paid In Full is built around this Break.",
+            body: "The song Paid In Full is built around this Break.",
             choices: [
                 "What is A New Day break ",
                 "What is Ashley's Roachclip break",
@@ -164,11 +164,11 @@ upon winning allPads change to drumPads
         {
             body: "The song Fight The Power was made by.",
             choices: [
-                "Who Run DMC",
-                "Who Public Enemy",
-                "Who Drake"
+                "Who is Run DMC",
+                "Who is Public Enemy",
+                "Who is Drake"
             ],
-            answer: "Who Public Enemy",
+            answer: "Who is Public Enemy",
             value: "100"
         },
         {
@@ -184,8 +184,8 @@ upon winning allPads change to drumPads
         {
             body: "The song Just A Friend was made by.",
             choices: [
-                "Who The Outlaws",
-                "Who Pete Rock",
+                "Who is The Outlaws",
+                "Who is Pete Rock",
                 "Who is Biz Markie"
             ],
             answer: "Who is Biz Markie",
