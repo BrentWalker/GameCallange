@@ -1,4 +1,4 @@
-# GameCallange
+# Beat Jeopardy
 ProjectOne - Jeopardy Game
 #GitHub https://github.com/BrentWalker/GameCallange
 
@@ -7,18 +7,22 @@ ProjectOne - Jeopardy Game
 #Trello https://trello.com/b/WpkLPJoo/jeopardy-game
 
 
-#  *****Requirements:*****
+#  *****Languages Used:*****
+* HTML
+* CSS
+* Javascript
 
-### Deployment
-Be deployed online, where the rest of the world can access it. We suggest you deploy your project to [Netlify Drop](https://app.netlify.com/drop).
-* Deploy on your public Github page, not Github Enterprise.
+### Other Tools used
+* Netlify
+* Trello
+* GitHub
 
 
-### Version Control
-Demonstrate using version control by:
-* Sharing your work through a git repository hosted on Github.
-* Making frequent, cohesive commits dating back to the **first day**
-of the project week. A **minimum** of 30 commits is required!
+*****Game Rules***
+Answer some dope HipHop & Beat Culture Questions to unlock the Drum Machine!
+Can you score 3000? if not you may have to give your Beat Machine up!
+
+
 
 ### Documentation
 * A `README.md` file containing:
