@@ -13,7 +13,7 @@ upon winning allPads change to drumPads
 
 (function () {
     // -----------------------variables-------------------
-    const WIN = 1000
+    const WIN = 100
     const LOSE = -1000
     const YOU_WIN = "You win go make some beats!";
     const YOU_LOSE = "Sell this thing, you're not ready.";
@@ -383,10 +383,12 @@ upon winning allPads change to drumPads
 
 window.addEventListener("keydown", function(e){
 const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
+const drum = document.querySelector(`.drum[data-key="${e.keycode}]`)
 if(!audio) return;
 audio.currentTime = 0;
 audio.play();
-});
+drum.classList.add("playing");
+});   
 
 
 
